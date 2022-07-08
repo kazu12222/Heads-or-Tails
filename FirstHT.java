@@ -20,9 +20,9 @@ public class FirstHT {
         }
         System.out.println("Heads:" + cnt + ",Tails:" + cnt2);
         if (cnt > cnt2) {
-            System.out.println("You won!");
+            System.out.println(input_text + " won!");
         } else
-            System.out.println("You lost");
+            System.out.println(input_text + " lost");
 
     }
 
